@@ -1,0 +1,94 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+html{
+  scroll-behavior: smooth;
+}
+ 
+body {
+  padding-top: 10vh;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link:hover{
+  color: #007bff;
+}
+
+
+#headerImage {
+  margin-top: 30px;
+  width: 60%;
+}
+
+#headerAtTop{
+  border-bottom: 4mm ridge #ea526f;
+  padding-bottom: 3vh;
+}
+
+.navbar-toggler-icon{
+  color: #ffffff;
+}
+
+.navbar{
+  background-color: #001D3D;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand{
+  color: #ffffff;
+}
+
+
+.nav-item a{
+  color: #ffffff;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+#carouselCard {
+  background-color: lightblue;
+}
+
+.indexSection{
+  margin: 3vh;
+  letter-spacing: 0.1rem;
+  scroll-margin-top: 8vh;
+  transition: ease-in;
+  transition-duration: 2s;
+}
+
+h2{
+  color: rgb(213, 92, 92);
+}
+
+
+.center-cropped {
+  width: 100%;
+  height: 15rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card{
+  min-width: 20rem;
+  max-width: 20rem;
+}
+
+.tableSection{
+  margin-bottom: 5rem;
+}
+
+h3{
+  color: rgb(222, 23, 23);
+}
+
+.tableSection h3{
+  margin-bottom: 1.5rem;
+}
