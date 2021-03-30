@@ -28,28 +28,32 @@ body {
 }
 
 #headerAtTop{
-  border-bottom: 2mm double #ea526f;
+  border-bottom: 2mm double #001D3D;
   padding-bottom: 3vh;
 }
 
 
 .navbar{
-  background-color: #001D3D;
+  background-color: #001d3d;
   transition: background-color 500ms;
   font-family: 'Ubuntu', sans-serif;
   box-shadow: 0 1px 30px #007bff;
+  
+}
+
+.navbar a:hover{
+  color: #fdc500;
 }
 
 .navbar.scrolled {
-  background-color: #ea536e;
-  box-shadow: 0 1px 30px #ed7b90;
+  background-color: #dcb734;
+  box-shadow: 0 1px 30px #FDC500;
   transition: background-color 500ms;
 }
 
 .navbar.scrolled .nav-link:hover, .navbar.scrolled .navbar-brand:hover{
-  color: #FFC300;
+  color: #00296B;
 }
-
 
 .portfolio-item {
   margin-bottom: 30px;
@@ -60,7 +64,7 @@ body {
   width: 15rem;
   margin-bottom: 2rem;
   border-radius: 50%;
-  border: 5px double #ea536e;
+  border: 5px double #00296B;
 }
 
 .indexSection{
@@ -79,7 +83,7 @@ body {
 }
 
 h2{
-  color: rgb(213, 92, 92);
+  color: #003F88;
   font-weight: 700;
 }
 
@@ -101,7 +105,7 @@ h2{
 }
 
 h3{
-  color: rgb(213, 92, 92);
+  color: #00509D;
 }
 
 .tableSection h3{
