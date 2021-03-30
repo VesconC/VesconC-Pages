@@ -14,10 +14,14 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
+
+.navbar-brand, .nav-item a, .navbar-toggler-icon{
+  color: #ffffff;
+}
+
 .nav-link:hover{
   color: #007bff;
 }
-
 
 #headerImage {
   margin-top: 30px;
@@ -25,26 +29,26 @@ body {
 }
 
 #headerAtTop{
-  border-bottom: 4mm ridge #ea526f;
+  border-bottom: 2mm double #ea526f;
   padding-bottom: 3vh;
 }
 
-.navbar-toggler-icon{
-  color: #ffffff;
-}
 
 .navbar{
   background-color: #001D3D;
+  transition: background-color 500ms;
   font-family: 'Ubuntu', sans-serif;
+  box-shadow: 0 1px 30px #007bff;
 }
 
-.navbar-brand{
-  color: #ffffff;
+.navbar.scrolled {
+  background-color: #ea536e;
+  box-shadow: 0 1px 30px #ed7b90;
+  transition: background-color 500ms;
 }
 
-
-.nav-item a{
-  color: #ffffff;
+.navbar.scrolled .nav-link:hover, .navbar.scrolled .navbar-brand:hover{
+  color: #FFC300;
 }
 
 
@@ -62,6 +66,13 @@ body {
   scroll-margin-top: 8vh;
   transition: ease-in;
   transition-duration: 2s;
+  padding-bottom: 3vh;
+  border-bottom: 2px solid #655f607c;
+}
+
+#completedProjects{
+  padding-bottom: 3vh;
+  border-bottom: 2px solid #655f607c;
 }
 
 h2{
@@ -91,4 +102,25 @@ h3{
 
 .tableSection h3{
   margin-bottom: 1.5rem;
+}
+
+#contactDetails .card, #contactDetails .card > *, #contactDetails .card-header{
+  border: none;
+  background-color: #fff;
+}
+
+#contactDetails .card-body{
+  height: 120px;
+}
+
+.contactCard{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
