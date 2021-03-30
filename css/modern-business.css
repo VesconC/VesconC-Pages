@@ -14,7 +14,6 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-
 .navbar-brand, .nav-item a, .navbar-toggler-icon{
   color: #ffffff;
 }
@@ -56,8 +55,12 @@ body {
   margin-bottom: 30px;
 }
 
-#carouselCard {
-  background-color: lightblue;
+.contactImage{
+  height: 15rem;
+  width: 15rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  border: 5px double #ea536e;
 }
 
 .indexSection{
@@ -77,8 +80,8 @@ body {
 
 h2{
   color: rgb(213, 92, 92);
+  font-weight: 700;
 }
-
 
 .center-cropped {
   width: 100%;
@@ -90,6 +93,7 @@ h2{
 .card{
   min-width: 20rem;
   max-width: 20rem;
+  
 }
 
 .tableSection{
@@ -97,7 +101,7 @@ h2{
 }
 
 h3{
-  color: rgb(222, 23, 23);
+  color: rgb(213, 92, 92);
 }
 
 .tableSection h3{
