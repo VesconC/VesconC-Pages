@@ -9,9 +9,13 @@ html{
 }
  
 body {
-  padding-top: 10vh;
+  padding-top: 40vh;
   justify-content: center;
   font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+  padding-top: 8vh;
 }
 
 .navbar-brand, .nav-item a, .navbar-toggler-icon{
@@ -24,7 +28,7 @@ body {
 
 #headerImage {
   margin-top: 30px;
-  width: 60%;
+  width: 50%;
 }
 
 #headerAtTop{
